@@ -29,9 +29,20 @@
 }
 body{
   background-color: rgb(185, 187, 190);
-  background-image: url('../public/The\ Notebook\ 1170x450.png');
+  background-image: url('../public/photo01.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: none;
+  }
+}
+@media (max-width: 945) {
+  body {
+    background-position:center;
+  }
 }
 label{
   color:black;
